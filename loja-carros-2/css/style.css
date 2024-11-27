@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 80px;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #fff;
+    margin: 50;
+}
+
+h2 {
+    color: #b2b2b2;
+}
+
+.caixa-preta {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 5px;
+    color: #fff;
+    max-width: 100%; 
+    margin: 10px;
+    max-width: -400;
+    display: flex;
+    align-items: center;
+}
+
+
+.caixa-preta img {
+    margin-right: 40px;
+    margin-bottom: 100px;
+    margin-top: -10px;
+    margin-left: -5px;
+    width: 250px; 
+    height: auto;
+}
+.caixa-preta h1,
+.caixa-preta h2 {
+    margin: 0;
+    text-align: right;
+}
+
+.titulo-logo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 40px;
+}
+
+.titulo-logo h1 {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.titulo-logo img {
+    border-radius: 50%; 
+    border: none; 
+    width: 200px;
+    height: 200px;
+}
+.nova-linha {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+img {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.amarelo {
+    color: #febe01;
+}
+
+.preto {
+    color: #000000;
+    text-align: center;
+}
+
+.texto {
+    text-align: left;
+}
+
+.texto h1,
+.texto h2 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.novas-caixas {
+    display: flex;
+    justify-content: center;
+    flex-basis: calc(50% - 20px);
+    flex-grow: 1;
+}
+
+.imagem-arredondada {
+    border-radius: 50%;
+}
+
+.container {
+    text-align: center;
+}
+
+button.proposta {
+    background-color: #febe01;
+    color: #332200;
+    border: none;
+    padding: 10px 15px;
+    font-size: 23px;
+    border-radius: 4px;
+    font-weight: bold;
+}
